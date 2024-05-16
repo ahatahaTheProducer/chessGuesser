@@ -11,3 +11,5 @@ and so on.
 The exception handling of this project is low level. So if there is an obvious bug or sth else every help is appriciated.
 
 Thanks :)
+
+Mustafa Taha Söylemez - 2022
