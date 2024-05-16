@@ -38,7 +38,7 @@ def piece_locator(places_list, the_table):
 #with this function we are gonna be able to visualize what we have on board
 def table_prompter(table_list):
     indexer = [['   '], ['0'], ['1'], ['2'], ['3'], ['4'], ['5'], ['6'], ['7']]
-    last_list = [['   '],['a'],['b'],['c'],['d'],['e'],['f'],['g'],['h']]
+    last_list = [[' '],['a'],['b'],['c'],['d'],['e'],['f'],['g'],['h']]
     index = 8
     for i in last_list:
         print(i[0] + '    ', end='')
@@ -46,7 +46,7 @@ def table_prompter(table_list):
     #for i in indexer:
     #    print(i[0] + '    ', end='')
     #print()
-    line = '     ---- ---- ---- ---- ---- ---- ---- ---- '
+    line = '   ---- ---- ---- ---- ---- ---- ---- ---- '
     print(line)
     for row in reversed(table_list):
         print( index, '|', end=' ')
